@@ -1,0 +1,65 @@
+/*style sheet for Project#1 index.html*/
+header		{ background-color: darkblue;
+			  background-image: url();
+			  color: white;
+			  font-family: arial, sans-serif;
+			  font-size: 26pt;
+			  padding: .8em ;
+			  max-width: 1000px; }
+nav			{ background-color: lightblue;
+			  font-family:arial, sans-serif;
+			  color: white;
+			  border: 2px solid royalblue;
+			  text-align: center;
+			  max-width: 155px;
+			  padding: 0.1em; }
+nav ul		{ display: none;
+			  list-style: none;
+			  margin: 1;
+			  padding: 0;}
+nav:hover ul	{ display: block }
+nav ul li		{ border-top: 2px solid royalblue;
+			  background-color: white;
+			  width: 155x;
+			  color: black; }
+body			{ background-color: black ;
+			  font-family: arial, sans-serif;
+			  margin-right: auto;
+			  margin-left: auto;
+			  padding: 0;
+			  padding-top: 10px;
+			  text-align: center;}
+#centered	{ max-width:1000px;
+			  text-align: left;
+			  border: 0px;
+			  padding: 0px;
+			  margin: 0 auto;}
+section		{ background-color: white;
+			  font-family: arial, sans-serif;
+			  padding: .01em;
+			  float: left; }
+table			{ max-width: 900px; }
+.special       { background-color: lightgrey;
+			  color:blue;
+			  padding: 1.5em; }
+.special2     { background-color: lightgrey;
+			  color:blue; 
+			  font-size: 10pt;}			  
+.shiftup	{ position: relative;
+			  up:}
+.shiftright	{ position: relative;
+			  right: -12em;}
+.shiftleft	{ position: relative;
+			  left: 1em;}
+p			{ font-family: arial, sans-serif; }
+	  
+a:link		{ text-decoration: none; color: blue; }
+a:visted 	{ text-decoration: none; color: purple; }
+a:hover		{ text-decoration: underline; color: orange; }
+a:active 	{ text-decoration: underline; color: green; }
+
+a.yellow:link	{ text-decoration: none; color: yellow; }
+a.yellow:visted 	{ text-decoration: none; color: purple; }
+a.yellow:hover	{ text-decoration: underline; color: orange; }
+a.yellow:active 	{ text-decoration: underline; color: green; }		  
+	
